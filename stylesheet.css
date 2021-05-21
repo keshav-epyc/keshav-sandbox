@@ -1,0 +1,97 @@
+html{
+    box-sizing:border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+    font-family: Gilroy,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: auto;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+@font-face {
+    font-family: gilroy;
+    src: url(fonts/Gilroy-Regular.ttf);
+    src: url(fonts/Gilroy-medium.ttf);
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+.hero-section {
+    background-color: #1c1336;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 8px;
+    display: flex;
+    flex-direction:column;
+    color: white;
+}
+
+.site-wrapper {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link {
+    padding:20px;
+    font-weight: normal;
+}
+
+.button {
+    padding: 14px 40px;
+    border-radius: 8px;
+    background-color:#7b56ee;
+    border: none;
+    color: white;
+    font:inherit;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hero-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:100%;
+}
+
+.hero-heading {
+    font-size: 45px;
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+
+.hero-img {
+    height:auto;
+}
+
+.hero-subheading {
+    margin-bottom: 32px;
+}
